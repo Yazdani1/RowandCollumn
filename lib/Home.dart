@@ -345,13 +345,11 @@ class _HomeState extends State<Home> {
                 ],
               ),
             ),
-
             Container(
               height: MediaQuery.of(context).size.height,
               margin: EdgeInsets.all(8.0),
               child: ListView(
                 children: [
-
                   Container(
                     height: 100.0,
                     width: MediaQuery.of(context).size.width,
@@ -381,7 +379,7 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                         ),
-                        
+
                         Expanded(
                           flex: 4,
                           child: Container(
