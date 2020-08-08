@@ -381,6 +381,7 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                         ),
+                        
                         Expanded(
                           flex: 4,
                           child: Container(
