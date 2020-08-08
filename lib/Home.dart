@@ -350,8 +350,10 @@ class _HomeState extends State<Home> {
               margin: EdgeInsets.all(8.0),
               child: ListView(
                 children: [
+
                   Container(
                     height: 100.0,
+
                     width: MediaQuery.of(context).size.width,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20.0),
@@ -375,7 +377,13 @@ class _HomeState extends State<Home> {
                             margin: EdgeInsets.all(10.0),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(90.0),
-                              color: Colors.lime
+                              color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                              ),),
                             ),
                           ),
                         ),
@@ -383,25 +391,609 @@ class _HomeState extends State<Home> {
                         Expanded(
                           flex: 4,
                           child: Container(
-                            height: 50.0,
                             margin: EdgeInsets.all(10.0),
-                            width: 50.0,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(90.0),
-                                color: Colors.lime
-                            ),
+                            child: Text("New T-shirt",style: TextStyle(
+                              fontSize: 25.0,
+                              color: Colors.white
+                            ),),
+
                           ),
                         ),
 
 
                       ],
                     ),
-                  )
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 100.0,
+                    margin: EdgeInsets.only(top: 10.0),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20.0),
+                        gradient: LinearGradient(
+                            begin: Alignment.bottomCenter,
+                            end: Alignment.centerLeft,
+                            colors: [
+                              Colors.deepPurple,
+                              Colors.black54
+                            ]
+                        )
+                    ),
+                    child: Row(
+                      children: [
+
+                        Expanded(
+                          flex: 1,
+                          child: Container(
+                            height: 50.0,
+                            width: 50.0,
+                            margin: EdgeInsets.all(10.0),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(90.0),
+                                color: Colors.deepPurple
+                            ),
+                            child: Center(
+                              child: Text("A",style: TextStyle(
+                                  fontSize: 25.0,
+                                  color: Colors.white
+                              ),),
+                            ),
+                          ),
+                        ),
+
+                        Expanded(
+                          flex: 4,
+                          child: Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Text("New T-shirt",style: TextStyle(
+                                fontSize: 25.0,
+                                color: Colors.white
+                            ),),
+
+                          ),
+                        ),
+
+
+                      ],
+                    ),
+                  ),
 
                 ],
               ),
             ),
 
+            //we are done here
           ],
         ),
       ),
