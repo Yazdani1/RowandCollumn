@@ -67,9 +67,6 @@ class _HomeState extends State<Home> {
               ),
             ),
 
-
-
-
             Container(
               height: 160.0,
               child: ListView(
