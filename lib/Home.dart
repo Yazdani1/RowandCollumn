@@ -46,9 +46,6 @@ class _HomeState extends State<Home> {
                     ),
                   ),
 
-
-
-                  
                   Expanded(
                     flex: 1,
                     child: Container(
