@@ -379,15 +379,9 @@ class _HomeState extends State<Home> {
                             height: 50.0,
                             width: 50.0,
                             margin: EdgeInsets.all(10.0),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(90.0),
-                              color: Colors.deepPurple
-                            ),
-                            child: Center(
-                              child: Text("A",style: TextStyle(
-                                fontSize: 25.0,
-                                color: Colors.white
-                              ),),
+                            child: CircleAvatar(
+                              child: Text("A"),
+                              backgroundColor: Colors.blue,
                             ),
                           ),
                         ),
