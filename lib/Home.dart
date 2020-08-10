@@ -67,12 +67,14 @@ class _HomeState extends State<Home> {
               ),
             ),
 
+
+
+
             Container(
               height: 160.0,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
-
                   Container(
                     height: 150.0,
                     width: 250.0,
@@ -111,7 +113,6 @@ class _HomeState extends State<Home> {
                       ],
                     ),
                   ),
-
                   Container(
                     height: 150.0,
                     width: 250.0,
