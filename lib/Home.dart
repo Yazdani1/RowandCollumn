@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Food.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -35,11 +36,16 @@ class _HomeState extends State<Home> {
                       margin: EdgeInsets.all(10.0),
                       color: Colors.deepPurpleAccent,
                       child: Center(
-                        child: Text(
-                          "Food",
-                          style: TextStyle(
-                            fontSize: 25.0,
-                            color: Colors.white,
+                        child: InkWell(
+                          onTap: (){
+                            Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext c)=>Food()));
+                          },
+                          child: Text(
+                            "Food",
+                            style: TextStyle(
+                              fontSize: 25.0,
+                              color: Colors.white,
+                            ),
                           ),
                         ),
                       ),
