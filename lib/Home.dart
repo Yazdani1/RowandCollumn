@@ -45,6 +45,10 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
+
+
+
+                  
                   Expanded(
                     flex: 1,
                     child: Container(
@@ -66,7 +70,6 @@ class _HomeState extends State<Home> {
                 ],
               ),
             ),
-
             Container(
               height: 160.0,
               child: ListView(
